@@ -608,23 +608,27 @@ display: flex;
 }
 
 .model-close-btn {
-    
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        
-        border: none;
-border-radius: 4px;
-    width: 24px;
-    height: 24px;
-   position: absolute;
-top: 24px;
-right: 24px;
-border-radius: 50%;
+    background-color: #e7e9fc;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        padding: 0;
+        border-radius: 4px;
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        top: 24px;
+        right: 24px;
+        border-radius: 50%;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.model-close-btn:hover,
+.model-close-btn:focus { 
+    background-color: #404bbf;
+    border: none;
 }
 
 .model-title {
@@ -642,7 +646,6 @@ border-radius: 50%;
 }
 
 .model-input {
-
 border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     width: 360px;
