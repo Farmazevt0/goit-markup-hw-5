@@ -861,28 +861,26 @@ width: 100%;
         align-items: center;
         margin-top: 16px;
         margin-bottom: 24px;
-
-        a {
-            line-height: 1.33333;
-                text-decoration: underline;
-                text-decoration-skip-ink: none;
-                color: #4d5ae5;
-        }
-
-        span {
-            width: 16px;
-            height: 16px;
-            border-radius: 2px;
-            border: 1px solid rgba(46, 47, 66, 0.4);
-            margin-right: 12px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            fill: transparent;
-        }
-
  }
 
+ .modal-check-icon {
+width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    margin-right: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+ }
+
+ .modal-field-police {
+line-height: 1.33333;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #4d5ae5;
+ }
  .modal-check:checked + .modal-check-text span {
     background-color: #404bbf;
         border: none;
