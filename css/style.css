@@ -768,8 +768,11 @@ width: 100%;
     border-color: #4D5AE5;
 }
 
-
+.modal-field:focus-within .label-men {
+fill: #4d5ae5;
+}
 .modal-field {
+    
     margin-bottom: 8px;
 }
 
@@ -865,11 +868,11 @@ width: 100%;
                 text-decoration-skip-ink: none;
                 color: #4d5ae5;
         }
-        
+
         span {
             width: 16px;
             height: 16px;
-        border-radius: 2px;
+            border-radius: 2px;
             border: 1px solid rgba(46, 47, 66, 0.4);
             margin-right: 12px;
             display: flex;
@@ -877,6 +880,7 @@ width: 100%;
             justify-content: center;
             fill: transparent;
         }
+
  }
 
  .modal-check:checked + .modal-check-text span {
