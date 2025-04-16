@@ -824,7 +824,7 @@ position: absolute;
        
  }
 
- .modal-field {
+ .modal-fieldbox {
     margin-bottom: 16px
  }
  .comment-field {
@@ -869,7 +869,6 @@ width: 100%;
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     margin-right: 12px;
-    display: flex;
     align-items: center;
     justify-content: center;
     fill: transparent;
