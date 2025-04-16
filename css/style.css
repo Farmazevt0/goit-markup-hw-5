@@ -824,6 +824,9 @@ position: absolute;
        
  }
 
+ .modal-field {
+    margin-bottom: 16px
+ }
  .comment-field {
     margin-bottom: 24px;
  }
